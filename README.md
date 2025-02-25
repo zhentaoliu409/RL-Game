@@ -1,12 +1,17 @@
 # RL-Game
 This project implements two 3D platformer modes using Q-learning. Mode 1 ("Pluck Stars") requires jumping toward star-shaped obstacles for scoring, while Mode 2 ("Just Jump") demands precise leaps over dynamically generated cubes.  
-  
+![1](photo/main_interface.png)  
+
+![2](photo/mode1.png) &nbsp; ![3](photo/mode2.png)  
+
 
 ## Table of Contents
 - [Game Design](#game-design)
 - [Q-Learning Algorithm](#q-learning-algorithm)
 - [Game Interaction](#game-interaction)
 - [References](#references)
+
+![4](photo/structure.png)  
 
   
 ## Game Design
@@ -72,7 +77,14 @@ reward for taking action a in state s.
 - Early phase: &nbsp; High ε explores diverse actions (e.g., random jump or horizontal movement) to discover potentially highly rewarding paths.
 - Late phase: &nbsp; Low ε utilises learned policies (e.g. jumping at the right place and distance) to steadily improve scores.
 
-    
+**Mode 1 (Pluck Stars) training history**:
+![5](photo/training_metrics.png)  
+
+**Mode 1 (Pluck Stars) training history**:
+![6](photo/training_metrics_l.png)   
+
+
+  
 ## Game Interaction  
 ### Modular architecture  
 The system has been designed with modularity in mind, allowing separate processes for the AI agent, the user/AI interface and the game  
