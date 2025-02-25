@@ -115,7 +115,7 @@ To set up the environment and run this project, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/zhentaoliu409/RL-Jump_Game.git
+   git clone https://github.com/zhentaoliu409/RL_Jump_Game.git
    ```
 
 2. Install the required libraries:
