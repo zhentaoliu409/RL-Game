@@ -1,8 +1,12 @@
-# RL-Game
+# RL Jump Game
 This project implements two 3D platformer modes using Q-learning. Mode 1 ("Pluck Stars") requires jumping toward star-shaped obstacles for scoring, while Mode 2 ("Just Jump") demands precise leaps over dynamically generated cubes.  
-![1](photo/main_interface.png)  
+![1](phtoto/main_interface.png)  
 
-![2](photo/mode1.png) &nbsp; ![3](photo/mode2.png)  
+**Mode 1 (Pluck Stars)**:
+![2](phtoto/mode1.png)  
+
+**Mode 2 (Just Jump)**:     
+![3](phtoto/mode1.png)  
 
 
 ## Table of Contents
@@ -11,7 +15,7 @@ This project implements two 3D platformer modes using Q-learning. Mode 1 ("Pluck
 - [Game Interaction](#game-interaction)
 - [References](#references)
 
-![4](photo/structure.png)  
+![4](phtoto/structure.png)  
 
   
 ## Game Design
@@ -78,10 +82,10 @@ reward for taking action a in state s.
 - Late phase: &nbsp; Low ε utilises learned policies (e.g. jumping at the right place and distance) to steadily improve scores.
 
 **Mode 1 (Pluck Stars) training history**:
-![5](photo/training_metrics.png)  
+![5](phtoto/training_metrics.png)  
 
 **Mode 1 (Pluck Stars) training history**:
-![6](photo/training_metrics_l.png)   
+![6](phtoto/training_metrics_l.png)   
 
 
   
